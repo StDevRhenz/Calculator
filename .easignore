@@ -1,0 +1,40 @@
+# Exclude all Windows system directories that cause permission issues
+**/AppData/**
+**/Windows/**
+**/ProgramData/**
+**/System32/**
+**/SysWOW64/**
+**/Users/*/AppData/**
+**/Users/*/Local Settings/**
+**/Users/*/Application Data/**
+
+# Node modules and other large folders
+node_modules/
+.expo/
+.git/
+
+# Build artifacts
+*.log
+*.tmp
+*.tbres
+entries.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Large files that shouldn't be uploaded
+*.zip
+*.tar.gz
+*.rar
