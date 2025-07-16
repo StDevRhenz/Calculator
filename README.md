@@ -20,21 +20,21 @@ A feature-rich calculator app built with React Native and Expo, featuring multip
 ### File Structure
 ```
 src/
-├── components/          # Reusable UI components
+├── components/          
 │   ├── CalculatorButton.tsx
 │   ├── MenuButton.tsx
 │   ├── ModeMenu.tsx
 │   └── HistoryPanel.tsx
-├── screens/            # Calculator mode screens
+├── screens/            
 │   ├── HomeScreen.tsx
 │   ├── ScientificScreen.tsx
 │   ├── UnitConverterScreen.tsx
 │   └── ProgrammerScreen.tsx
-├── constants/          # Design system
+├── constants/          
 │   └── colors.ts
-├── utils/             # Calculation logic
+├── utils/             
 │   └── calculate.ts
-└── types/             # TypeScript definitions
+└── types/             
     └── index.ts
 ```
 
